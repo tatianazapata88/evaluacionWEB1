@@ -24,8 +24,8 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="gimnasio.php">BodyTech</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled<a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="springstep.php">Spring Step<a>
                         </li>
                     </ul>
                 </div>
@@ -108,7 +108,7 @@
                                         <?php echo("Tu indice de masa corporal IMC es ".$operacion)?>  
                                         <?php echo("<br>")?>
                                         <?php echo("Esto quiere decir que tienes obesidad tipo 4, obesidad extrema")?> 
-                                <?php if($operacion<18.5&&$operacion>=10&&$genero=="1"):?>
+                                <?php elseif($operacion<18.5&&$operacion>=10&&$genero=="1"):?>
                                     <img src="img/pesoinsm.JPG" class="mx-auto d-block img-fluid" alt="pesoinsufmujer">
                                     <?php echo("<br>")?>
                                     <?php echo("Tu indice de masa corporal IMC es ".$operacion)?>  
