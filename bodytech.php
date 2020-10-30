@@ -22,7 +22,7 @@
                             <a class="nav-link" href="calculadora.php">Calculadora</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="gimnasio.php">BodyTech</a>
+                            <a class="nav-link" href="bodytech.php">BodyTech</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="springstep.php">Spring Step<a>
