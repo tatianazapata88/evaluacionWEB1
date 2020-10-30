@@ -10,14 +10,14 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">UTILIDADES</a>
+                <a class="navbar-brand" href="index.php">UTILIDADES</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="calculadora.php">Calculadora</a>
@@ -126,18 +126,18 @@
 
         </main>
         <footer class="bg-dark text-white mt-5">
-            <div class="contaner">
-                <div class="row justify-content-around text-center ">
-                    <div class="col-md-3 mt-5">
-                        <img src="img/liseth.jpg" alt="Liseth Giraldo" class="img-fluid w-100 rounded-circle">
+        <div class="contaner">
+            <div class="row justify-content-around text-center ">
+                <div class="col-md-3 mt-5">
+                <img src="img/liseth.jpg" alt="Liseth Giraldo" class="img-fluid w-100 rounded-circle">
                         <p>Liseth Arelis Giraldo Morales©</p>
                         <p>Lisethgiraldo628@gmail.com</p>
-                        <p>Medellin - Colombia</p>
+                        <p>Rionegro - Colombia</p>
                     </div>
                     <div class="col-md-3 mt-5">
                         <img src="img/tatiana.jpg" alt="Tatiana Zapata" class="img-fluid w-100 rounded-circle">
                         <p>Luz Tatiana Zapata ©</p>
-                        <p>tatiana@gmail.com</p>
+                        <p>tatianazz3@hotmail.com</p>
                         <p>Medellin - Antioquia</p>
                     </div>
                 </div>
@@ -151,8 +151,7 @@
                     </div>
                 </div>
             </div>
-    
-        </footer>
+    </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>

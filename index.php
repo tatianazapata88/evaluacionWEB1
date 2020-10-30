@@ -76,12 +76,12 @@
                 <img src="img/liseth.jpg" alt="Liseth Giraldo" class="img-fluid w-100 rounded-circle">
                         <p>Liseth Arelis Giraldo Morales©</p>
                         <p>Lisethgiraldo628@gmail.com</p>
-                        <p>Medellin - Colombia</p>
+                        <p>Rionegro - Colombia</p>
                     </div>
                     <div class="col-md-3 mt-5">
                         <img src="img/tatiana.jpg" alt="Tatiana Zapata" class="img-fluid w-100 rounded-circle">
                         <p>Luz Tatiana Zapata ©</p>
-                        <p>tatiana@gmail.com</p>
+                        <p>tatianazz3@hotmail.com</p>
                         <p>Medellin - Antioquia</p>
                     </div>
                 </div>
@@ -95,7 +95,6 @@
                     </div>
                 </div>
             </div>
-
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

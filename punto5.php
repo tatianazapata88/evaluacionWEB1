@@ -45,7 +45,7 @@
                 <div class="card">
                   <div class="row">
                     <div class="col-md-4">
-                      <img class="card-img-top w-100 img-fluid" src="img/sucursal.jpg" alt="Pensando">
+                      <img class="card-img-top w-100 img-fluid" src="img/sucursal.jpg" alt="sucursal">
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
@@ -79,10 +79,10 @@
                             <div class="card-body">
                             <h5 class="text-white card-title">Usuario 1</h5>
                               <img class="card-img-top w-100 img-fluid" src="img/esteban.svg" alt="esteban">
-                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombreStand" required>
-                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionStand" required>
-                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonoStand" required>
-                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salarioStand" required>
+                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombreesteban" required>
+                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionesteban" required>
+                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonoesteban" required>
+                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salarioesteban" required>
 
                             </div>
                           </div>
@@ -92,10 +92,10 @@
                             <div class="card-body">
                             <h5 class="text-white card-title">Usuario 2</h5>
                               <img class="card-img-top w-100 img-fluid" src="img/andrea.svg" alt="andrea">
-                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombreButter" required>
-                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionButter" required>
-                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonoButter" required>
-                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salarioButter" required>
+                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombreandrea" required>
+                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionandrea" required>
+                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonoandrea" required>
+                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salarioandrea" required>
                             </div>
                           </div>
                         </div>
@@ -104,10 +104,10 @@
                             <div class="card-body">
                             <h5 class="text-white card-title">Usuario 3</h5>
                               <img class="card-img-top w-100 img-fluid" src="img/magnolia.jpg" alt="magnolia">
-                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombreErick" required>
-                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionErick" required>
-                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonoErick" required>
-                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salarioErick" required>
+                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombremagnolia" required>
+                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionmagnolia" required>
+                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonomagnolia" required>
+                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salariomagnolia" required>
                             </div>
                           </div>
                         </div>
@@ -118,10 +118,10 @@
                             <div class="card-body">
                             <h5 class="text-white card-title">Usuario 4</h5>
                               <img class="card-img-top w-100 img-fluid" src="img/samuel.svg" alt="samuel">
-                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombreKyel" required>
-                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionKyel" required>
-                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonoKyel" required>
-                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salarioKyel" required>
+                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombresamuel" required>
+                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionsamuell" required>
+                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonosamuel" required>
+                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salariosamuel" required>
                             </div>
                           </div>
                         </div>
@@ -130,44 +130,39 @@
                             <div class="card-body">
                               <h5 class="text-white card-title">Usuario 5</h5>
                               <img class="card-img-top w-100 img-fluid" src="img/alex.svg" alt="alex">
-                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombreKenny" required>
-                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionKenny" required>
-                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonoKenny" required>
-                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salarioKenny" required>
+                              <input type="text" class="form-control mt-3" placeholder="Nombre Completo" name="nombrealex" required>
+                              <input type="text" class="form-control mt-2" placeholder="Direccion" name="direccionalex" required>
+                              <input type="text" class="form-control mt-2" placeholder="Telefono" name="telefonoalex" required>
+                              <input type="number" class="form-control mt-2" placeholder="Salario" name="salarioalex" required>
                             </div>
                           </div>
                         </div>
                       </div>
                       <button type="submit" class="btn btn-primary col-md-10 mt-4" name="btnEnviarDatos">Enviar datos</button>
                       
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-3 justify-content-center">
+                      <div class="row mt-3 justify-content-center">
               <div class="col-md-12">
                 <div class="card bg-secondary">
                   <div class="card-body">
                     <div class="row">
                       <?php if(isset($_POST["btnEnviarDatos"])): ?>
                         <?php 
-                          $nombres = array($_POST["nombreStand"],$_POST["nombreButter"],$_POST["nombreErick"],$_POST["nombreKyel"],$_POST["nombreKenny"]);
-                          $direcciones = array($_POST["direccionStand"],$_POST["direccionButter"],$_POST["direccionErick"],$_POST["direccionKyel"],$_POST["direccionKenny"]);
-                          $telefonos = array($_POST["telefonoStand"],$_POST["telefonoButter"],$_POST["telefonoErick"],$_POST["telefonoKyel"],$_POST["telefonoKenny"]);
-                          $salarios = array($_POST["salarioStand"],$_POST["salarioButter"],$_POST["salarioErick"],$_POST["salarioKyel"],$_POST["salarioKenny"]);
+                          $nombres = array($_POST["nombreesteban"],$_POST["nombreandrea"],$_POST["nombremagnolia"],$_POST["nombresamuel"],$_POST["nombrealex"]);
+                          $direcciones = array($_POST["direccionesteban"],$_POST["direccionandrea"],$_POST["direccionmagnolia"],$_POST["direccionsamuel"],$_POST["direccionalex"]);
+                          $telefonos = array($_POST["telefonoesteban"],$_POST["telefonoandrea"],$_POST["telefonomagnolia"],$_POST["telefonosamuel"],$_POST["telefonoalex"]);
+                          $salarios = array($_POST["salarioesteban"],$_POST["salarioandrea"],$_POST["salariomagnolia"],$_POST["salariosamuel"],$_POST["salarioalex"]);
                           $sumatoriaSucursalB = 40000000;
                           $sumatoriaSucursalC = 32000000;
                           $sumatoriaSalarios =0;
-                          $rutaSucursalA = "recursos/southPark.jpg";
-                          $rutaSucursalB = "recursos/simpson.jpg";
-                          $rutaSucursalC = "recursos/happy.jpg";
-                          $rutaStand ="recursos/stand.png";
-                          $rutaButter = "recursos/butter.png";
-                          $rutaErick = "recursos/erick.png";
-                          $rutaKyel = "recursos/kyel.png";
-                          $rutaKenny = "recursos/kenny.png";
-                          $imagenes = array($rutaStand,$rutaButter,$rutaErick,$rutaKyel,$rutaKenny);
+                          $rutaSucursalA = "img/sucursalA.jpg";
+                          $rutaSucursalB = "img/sucursalB.jpg";
+                          $rutaSucursalC = "img/sucursalC.gif";
+                          $rutaesteban ="img/esteban.svg";
+                          $rutaandrea = "img/andrea.svg";
+                          $rutamagnolia = "img/magnolia.jpg";
+                          $rutasamuel = "img/samuel.svg";
+                          $rutaalex = "img/alex.svg";
+                          $imagenes = array($rutaesteban,$rutaandrea,$rutamagnolia,$rutasamuel,$rutaalex);
 
                           for($i=0;$i<sizeof($salarios);$i++){
                               $sumatoriaSalarios += $salarios[$i];
@@ -182,7 +177,7 @@
 
                             $fotoPrimerLugar= $rutaSucursalA;
                             $salarioPrimerLugar = $sumatoriaSalarios;
-                            $sucursalGanadora = "SCURSAL A";
+                            $sucursalGanadora = "SUCURSAL A";
 
                             if($sumatoriaSucursalB > $sumatoriaSucursalC){
                               $fotoSegundoLugar = $rutaSucursalB;
@@ -333,12 +328,12 @@
                 <img src="img/liseth.jpg" alt="Liseth Giraldo" class="img-fluid w-100 rounded-circle">
                         <p>Liseth Arelis Giraldo Morales©</p>
                         <p>Lisethgiraldo628@gmail.com</p>
-                        <p>Medellin - Colombia</p>
+                        <p>Rionegro - Colombia</p>
                     </div>
                     <div class="col-md-3 mt-5">
                         <img src="img/tatiana.jpg" alt="Tatiana Zapata" class="img-fluid w-100 rounded-circle">
                         <p>Luz Tatiana Zapata ©</p>
-                        <p>tatiana@gmail.com</p>
+                        <p>tatianazz3@hotmail.com</p>
                         <p>Medellin - Antioquia</p>
                     </div>
                 </div>

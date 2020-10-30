@@ -39,8 +39,18 @@
         </header>
         <main>
             <div class="container">
+                <div class="row mt-5 ml-5">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top w-100 img-fluid" src="img/bodytech.png" alt="cuentas">
+                        <div class="card-body">
+                            <h5 class="card-text text-info text-center">Punto 2</h5>
+                            <p class="card-text">El gimnasio Bodytech, lo contrata para desarrollar un aplicación web que permita a sus usuarios calcular el índice de masa corporal basado en la formula y de acuerdo a los </p>
+                        </div>
+                        </div>     
+                    </div>
                 <div class="row justify-content-center">
-                    <div class="col-6">
+                    <div class="col-10">
                         <form action="bodytech.php" method="POST">
                             <div class="row mt-5">
                                 <div class="col">
@@ -178,12 +188,12 @@
                 <img src="img/liseth.jpg" alt="Liseth Giraldo" class="img-fluid w-100 rounded-circle">
                         <p>Liseth Arelis Giraldo Morales©</p>
                         <p>Lisethgiraldo628@gmail.com</p>
-                        <p>Medellin - Colombia</p>
+                        <p>Rionegro - Colombia</p>
                     </div>
                     <div class="col-md-3 mt-5">
                         <img src="img/tatiana.jpg" alt="Tatiana Zapata" class="img-fluid w-100 rounded-circle">
                         <p>Luz Tatiana Zapata ©</p>
-                        <p>tatiana@gmail.com</p>
+                        <p>tatianazz3@hotmail.com</p>
                         <p>Medellin - Antioquia</p>
                     </div>
                 </div>

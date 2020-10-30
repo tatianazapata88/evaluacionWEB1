@@ -39,10 +39,21 @@
         </header>
         <main>
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-6">
+            <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img class="card-img-top w-100 img-fluid" src="img/springstep.jpeg" alt="springstep">
+                        <div class="card-body">
+                            <h5 class="card-text text-info text-center">Punto 3</h5>
+                            <p class="card-text">Codificar un programa en PHP para la tienda Spring Step que 
+                            tiene una promoción de descuento, esta dependerá del número de zapatos que se compren.  </p>
+                        </div>
+                        </div>     
+                    </div>
+                
+                    <div class="col-md-6">
                         <form action="springstep.php" method="POST">
-                            <div class="row mt-5">
+                            <div class="row">
                                 <div class="col">
                                     <img src="img/tenis.jpg" class="img-fluid" alt="tenis" name="tenis" id="tenis"></img>
                                     <label for="tenis" name="preciotenis">$150.000 par</label>
@@ -117,7 +128,7 @@
                             <?php endif?>
                         </form>   
                     </div>
-                </div>
+                
             </div>
         </main>
         <footer class="bg-dark text-white mt-5">
@@ -127,12 +138,12 @@
                 <img src="img/liseth.jpg" alt="Liseth Giraldo" class="img-fluid w-100 rounded-circle">
                         <p>Liseth Arelis Giraldo Morales©</p>
                         <p>Lisethgiraldo628@gmail.com</p>
-                        <p>Medellin - Colombia</p>
+                        <p>Rionegro - Colombia</p>
                     </div>
                     <div class="col-md-3 mt-5">
                         <img src="img/tatiana.jpg" alt="Tatiana Zapata" class="img-fluid w-100 rounded-circle">
                         <p>Luz Tatiana Zapata ©</p>
-                        <p>tatiana@gmail.com</p>
+                        <p>tatianazz3@hotmail.com</p>
                         <p>Medellin - Antioquia</p>
                     </div>
                 </div>
