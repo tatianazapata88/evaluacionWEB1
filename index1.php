@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="estilos.css">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">UTILIDADES</a>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title> EJERCICIOS TALLER PHP</title>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-danger bg-danger">
+                <a class="navbar-brand" href="index.php">
+                    <img src="img/logoIntersoftware.png" width="70" height="50" class="d-inline-block align-top" alt="logo" loading="lazy">
+                </a>
+                <a class="navbar-brand" href="index.php" id="textoPrincipal">EJERCICIOS TALLER PHP</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
                 </button>
+            
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="index.php">Inicio <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="calculadora.php">Calculadora</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Puntos del 1 al 5 </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="punto.php">Punto 1</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="punto2.php">Punto 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="punto3.php">Punto 3</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="punto4.php">Punto 4</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item active" href="punto5.php">Punto 5</a>
+                            </div>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="bodytech.php">BodyTech</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="springstep.php">Spring Step<a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="punto4.php">Postobon<a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="punto5.php">Bancolombia<a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </header>
-        <main>
+    </header>
+    <main>
     <section class="container" id="galeria">
     <div class="text-center pt-5" >
         <h1>
@@ -49,13 +57,13 @@
         </p>
     </div>
     <div class="row">
-    <div class="col-lg-4 col-md-6 col-sm 12"><a href="calculadora.php"><img src="img/calculadora.jpg" alt="Calculadora"></a>
+    <div class="col-lg-4 col-md-6 col-sm 12"><a href="punto1.php"><img src="img/calculadora.jpg" alt="Calculadora"></a>
     <h3>Calculadora</h3>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm 12"><a href="bodytech.php"><img src="img/masaCorporal.png" alt="Indide Masa Corporal"></a>
+    <div class="col-lg-4 col-md-6 col-sm 12"><a href="punto2.php"><img src="img/masaCorporal.png" alt="Indide Masa Corporal"></a>
     <h3>Indice Masa Muscular</h3>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm 12"><a href="springstep.php"><img src="img/zapatos.jpg" alt="Zapatos"></a>
+    <div class="col-lg-4 col-md-6 col-sm 12"><a href="punto3.php"><img src="img/zapatos.jpg" alt="Zapatos"></a>
     <h3>Compra Zapatos</h3>
     </div>
     <div class="col-lg-4 col-md-6 col-sm 12"><a href="punto4.php"><img src="img/salario.jpg" alt="Salario"></a>

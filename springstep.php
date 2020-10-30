@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                  <a class="navbar-brand" href="index.php">UTILIDADES</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -26,6 +26,12 @@
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="springstep.php">Spring Step<a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="punto4.php">Postobon<a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="punto5.php">Bancolombia<a>
                         </li>
                     </ul>
                 </div>
@@ -114,10 +120,33 @@
                 </div>
             </div>
         </main>
-        <footer>
-   
-        </footer>
-
+        <footer class="bg-dark text-white mt-5">
+        <div class="contaner">
+            <div class="row justify-content-around text-center ">
+                <div class="col-md-3 mt-5">
+                <img src="img/liseth.jpg" alt="Liseth Giraldo" class="img-fluid w-100 rounded-circle">
+                        <p>Liseth Arelis Giraldo Morales©</p>
+                        <p>Lisethgiraldo628@gmail.com</p>
+                        <p>Medellin - Colombia</p>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <img src="img/tatiana.jpg" alt="Tatiana Zapata" class="img-fluid w-100 rounded-circle">
+                        <p>Luz Tatiana Zapata ©</p>
+                        <p>tatiana@gmail.com</p>
+                        <p>Medellin - Antioquia</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-8">
+                        <div class="footer-copyright text-center py-3">© Colombia - 2020 Copyright:
+                            <a
+                                href=" https://www.intersoftware.org.co/">
+                                Grupo Cerrado Intersoftware </a> <a href="https://www.cesde.edu.co/Paginas/tecnicos/procesos-tecnologicos-e-industriales/desarrollo-de-software-virtual.aspx"> - CESDE  </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     </body>
