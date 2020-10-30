@@ -109,10 +109,10 @@
                                         <br>
                                         <?php echo("Valor total a pagar ".$valorpagar)?>
                                     <?php elseif($cantidadzapatos>"8"):?> 
-                                        <?php echo("El valor total de la compra es".$valorcompra)?>
+                                        <?php echo("El valor total de la compra es ".$valorcompra)?>
                                         <br>
                                         <?php $valordescuento=$valorcompra*$dctomayor8?>
-                                        <?php echo("Por comprar ".$cantidadzapatos." pares de zapatos tienes un 20% de descuento ".$valordescuento)?>  
+                                        <?php echo("Por comprar ".$cantidadzapatos." pares de zapatos tienes un 50% de descuento ".$valordescuento)?>  
                                         <?php $valorpagar=$valorcompra-$valordescuento?>
                                         <br>
                                         <?php echo("Valor total a pagar ".$valorpagar)?>
