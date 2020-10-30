@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-6">
-                        <form action="gimnasio.php" method="POST">
+                        <form action="bodytech.php" method="POST">
                             <div class="row mt-5">
                                 <div class="col">
                                     <input type="decimal" class="form-control" placeholder="Digita tu Peso Kg" name="peso">
